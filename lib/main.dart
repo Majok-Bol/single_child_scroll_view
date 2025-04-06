@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(title: Text('SingleScrollChild Widget',style: TextStyle(color: Colors.white),),centerTitle: true,backgroundColor: Colors.purple,),
         body: Container(
           color: Colors.grey,
           padding: EdgeInsets.all(10),
